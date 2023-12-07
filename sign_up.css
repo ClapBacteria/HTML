@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+body {
+    background-color: #eee;
+}
+section div {
+    padding-bottom: 1.5rem;
+    align-items: center;
+}
+.container {
+    backdrop-filter: blur(20);
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header {
+    font-size: 3.5rem;
+    color: rebeccapurple;
+}
+section {
+    width: 100%;
+    margin: 10px auto 40px;
+}
+section>p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+section input {
+    font-size: .8rem;
+    padding: 8px;
+    width: 200px;
+    border: .5px solid #ddd;
+    outline: none;
+    transition: box-shadow .5s;
+}
+section input:nth-of-type(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+section input:nth-of-type(3) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+section input [type="submit"] {
+    display: block;
+    width: 100%;
+    border: 1px solid skyblue;
+    margin-top: 1.5rem;
+    padding: .3rem;
+    border-radius: 5px;
+    font-size: .8rem;
+    background-color: skyblue;
+    color: white;
+    outline: none;
+    transition: all .5s;
+}
+section input[type="submint"]:hover {
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+}
+section>li {
+    padding-top: 2vh;
+    color: gray;
+    list-style:none;
+    padding-left:0px;;
+    font-size: 0.8rem;
+}
